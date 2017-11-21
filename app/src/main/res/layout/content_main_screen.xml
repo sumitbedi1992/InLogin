@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffcc02"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ceo.app_knit.com.ceo.MainScreenActivity"
+    tools:showIn="@layout/activity_main_screen">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Read"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/read" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Watch"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="15dp"
+
+            android:src="@drawable/watch" />
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/conect"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/connect" />
+
+    <Button
+        android:id="@+id/Logout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/black"
+        android:text="LOG OUT"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
