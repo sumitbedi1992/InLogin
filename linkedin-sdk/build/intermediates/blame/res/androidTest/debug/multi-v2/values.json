@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ranbir\\Documents\\GitHub\\InLogin\\linkedin-sdk\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ranbir\\Documents\\GitHub\\InLogin\\linkedin-sdk\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,117,183,322",
+                        "endColumns": "61,65,138,73",
+                        "endOffsets": "112,178,317,391"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ranbir\\Downloads\\InLogin\\InLogin\\linkedin-sdk\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ranbir\\Downloads\\InLogin\\InLogin\\linkedin-sdk\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,117,183,322",
+                        "endColumns": "61,65,138,73",
+                        "endOffsets": "112,178,317,391"
+                    }
+                }
+            ]
+        }
+    ]
+}

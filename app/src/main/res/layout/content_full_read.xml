@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffcc02"
     android:orientation="vertical"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="ceo.app_knit.com.ceo.ProfileActivity"
+
+    tools:context=".ProfileActivity"
     tools:showIn="@layout/activity_full_read">
 
 
@@ -38,12 +37,12 @@
 
 
     <ImageView
+        android:id="@+id/profileimage"
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:layout_gravity="left"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:background="@color/colorPrimary" />
+        android:layout_marginTop="20dp" />
 
     <TextView
         android:id="@+id/name"
@@ -51,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
-        android:text="Ranbir"
+        android:text=""
         android:textColor="@android:color/black"
         android:textSize="15sp"
         android:textStyle="bold" />
@@ -63,14 +62,15 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:text="Occupation"
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
-        android:text="Android Developer" />
+        android:text="" />
 
     <TextView
         android:layout_width="match_parent"
@@ -78,7 +78,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:text="Email Address"
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/email"
@@ -86,14 +87,15 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
-        android:text="ranbirk66@gmail.com" />
+        android:text="" />
 
     <TextView
+        android:id="@+id/about"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
-        android:text="About Ranbir Singh"
+        android:text=""
         android:textColor="@android:color/black" />
 
 

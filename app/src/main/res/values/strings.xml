@@ -7,4 +7,5 @@
     <string name="facebook_app_id">131031021004069</string>
     <string name="fb_login_protocol_scheme">fb131031021004069</string>
     <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_youtube_player">YoutubePlayer</string>
 </resources>

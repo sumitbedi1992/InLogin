@@ -35,49 +35,96 @@
     <com.google.android.youtube.player.YouTubePlayerView
         android:id="@+id/youtube_player_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         android:layout_marginTop="10dp"
         android:background="#ebeff2" />
 
 
+    <TextView
+        android:id="@+id/video_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+
     <ImageView
         android:id="@+id/play_video"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_play_circle_outline_black_48dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:layout_gravity="center"
-        android:layout_margin="20dp" />
+        android:layout_marginTop="30dp" />
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/startingtimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_weight=".5"
+            android:gravity="left"
+            android:text=""
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/finaltimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dp"
+            android:layout_weight=".5"
+            android:gravity="right"
+            android:text=""
+            android:textColor="@android:color/black" />
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/video_control"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:orientation="horizontal"
+        android:weightSum="1"
 
         >
 
 
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
 
+            android:layout_weight=".1"
+            android:src="@drawable/ic_volume_mute_black_24dp" />
 
         <SeekBar
             android:id="@+id/video_seekbar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_weight="6"
+            android:layout_weight=".8"
+            android:backgroundTint="@android:color/black"
             android:max="100"
-            android:progress="0" />
+            android:progress="0"
+            android:progressTint="@android:color/black"
+            android:thumbTint="@android:color/black" />
 
-        <TextView
-            android:id="@+id/play_time"
+        <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:layout_weight="2"
-            android:text="--:--"
-            android:textColor="@android:color/white" />
+            android:layout_weight=".1"
+            android:src="@drawable/ic_volume_up_black_24dp" />
+
+
     </LinearLayout>
 
 </LinearLayout>
